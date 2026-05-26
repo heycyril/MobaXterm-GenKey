@@ -8,19 +8,19 @@ http://149.129.94.166:5000/
 ## 本地启动
 需要安装Python3!!!
 ```
-pip install --no-cache-dir -r requirements.txt
-python app.py
+pip3 install --no-cache-dir -r requirements.txt
+python3 app.py
 ```
 
 ## Docker
 ```
 docker pull malaohu/mobaxterm-genkey
-docker run -d -p 5000:5000 malaohu/mobaxterm-genkey
+docker run -d -p 5001:5000 malaohu/mobaxterm-genkey
 ```
 
 
 ## 使用方法
-访问：IP:5000
+访问：IP:5001
 
 ![image](https://img14.360buyimg.com/ddimg/jfs/t1/327451/37/1655/17390/68940230F93909c3f/80f2e5a285489ac1.jpg)
 
@@ -73,3 +73,5 @@ LABEL 元数据: 添加维护者和描述信息
 
 
 现在支持的用户数量范围是 1 - 99999
+
+
