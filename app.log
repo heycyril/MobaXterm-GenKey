@@ -1,0 +1,52 @@
+2026-05-26 23:02:58,144 - __main__ - INFO - 启动 MobaXterm Keygen 服务...
+2026-05-26 23:02:58,145 - __main__ - INFO - Host: 0.0.0.0, Port: 5001, Debug: False
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+2026-05-26 23:02:58,147 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2026-05-26 23:02:58,147 - werkzeug - INFO -  * Running on http://172.21.43.37:5001/ (Press CTRL+C to quit)
+2026-05-26 23:02:58,925 - werkzeug - INFO - 127.0.0.1 - - [26/May/2026 23:02:58] "GET /health HTTP/1.1" 200 -
+2026-05-26 23:03:04,637 - werkzeug - INFO - 127.0.0.1 - - [26/May/2026 23:03:04] "GET /health HTTP/1.1" 200 -
+2026-05-26 23:03:04,684 - __main__ - INFO - 生成许可证: name=TestUser, version=25.2, count=1
+2026-05-26 23:03:04,685 - werkzeug - INFO - 127.0.0.1 - - [26/May/2026 23:03:04] "GET /gen?name=TestUser&ver=25.2&count=1 HTTP/1.1" 200 -
+2026-05-26 23:03:04,971 - werkzeug - INFO - 127.0.0.1 - - [26/May/2026 23:03:04] "GET / HTTP/1.1" 200 -
+2026-05-26 23:03:08,270 - werkzeug - INFO - 127.0.0.1 - - [26/May/2026 23:03:08] "[31m[1mGET /gen HTTP/1.1[0m" 400 -
+2026-05-26 23:03:08,315 - werkzeug - INFO - 127.0.0.1 - - [26/May/2026 23:03:08] "[31m[1mGET /gen?name=&ver= HTTP/1.1[0m" 400 -
+2026-05-26 23:04:15,416 - __main__ - INFO - 启动 MobaXterm Keygen 服务...
+2026-05-26 23:04:15,416 - __main__ - INFO - Host: 0.0.0.0, Port: 5001, Debug: False
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+2026-05-26 23:04:15,418 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2026-05-26 23:04:15,419 - werkzeug - INFO -  * Running on http://172.21.43.37:5001/ (Press CTRL+C to quit)
+2026-05-26 23:04:16,178 - werkzeug - INFO - 127.0.0.1 - - [26/May/2026 23:04:16] "GET /health HTTP/1.1" 200 -
+2026-05-26 23:04:18,974 - werkzeug - INFO - 127.0.0.1 - - [26/May/2026 23:04:18] "GET / HTTP/1.1" 200 -
+2026-05-26 23:04:22,886 - __main__ - INFO - 生成许可证: name=TestUser, version=25.2, count=9999
+2026-05-26 23:04:22,887 - werkzeug - INFO - 127.0.0.1 - - [26/May/2026 23:04:22] "GET /gen?name=TestUser&ver=25.2&count=9999 HTTP/1.1" 200 -
+2026-05-26 23:04:22,905 - __main__ - INFO - 生成许可证: name=TestUser, version=25.2, count=1000
+2026-05-26 23:04:22,906 - werkzeug - INFO - 127.0.0.1 - - [26/May/2026 23:04:22] "GET /gen?name=TestUser&ver=25.2&count=1000 HTTP/1.1" 200 -
+2026-05-26 23:04:25,440 - werkzeug - INFO - 127.0.0.1 - - [26/May/2026 23:04:25] "[31m[1mGET /gen?name=TestUser&ver=25.2&count=100000 HTTP/1.1[0m" 400 -
+2026-05-26 23:07:04,634 - __main__ - INFO - 启动 MobaXterm Keygen 服务...
+2026-05-26 23:07:04,634 - __main__ - INFO - Host: 0.0.0.0, Port: 5001, Debug: False
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+2026-05-26 23:07:04,636 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2026-05-26 23:07:04,636 - werkzeug - INFO -  * Running on http://172.21.43.37:5001/ (Press CTRL+C to quit)
+2026-05-26 23:07:05,462 - werkzeug - INFO - 127.0.0.1 - - [26/May/2026 23:07:05] "GET /health HTTP/1.1" 200 -
+2026-05-26 23:08:34,645 - werkzeug - INFO - 127.0.0.1 - - [26/May/2026 23:08:34] "GET / HTTP/1.1" 200 -
+2026-05-26 23:08:52,450 - __main__ - INFO - 生成许可证: name=1212, version=29.0, count=10000
+2026-05-26 23:08:52,451 - werkzeug - INFO - 127.0.0.1 - - [26/May/2026 23:08:52] "GET /gen?name=1212&ver=29.0&count=10000 HTTP/1.1" 200 -
+2026-05-26 23:11:24,538 - __main__ - INFO - 生成许可证: name=1212, version=26.3, count=10000
+2026-05-26 23:11:24,539 - werkzeug - INFO - 127.0.0.1 - - [26/May/2026 23:11:24] "GET /gen?name=1212&ver=26.3&count=10000 HTTP/1.1" 200 -
+2026-05-26 23:13:35,858 - __main__ - INFO - 生成许可证: name=JIT, version=26.3, count=99999
+2026-05-26 23:13:35,859 - werkzeug - INFO - 127.0.0.1 - - [26/May/2026 23:13:35] "GET /gen?name=JIT&ver=26.3&count=99999 HTTP/1.1" 200 -
