@@ -27,7 +27,9 @@ docker run -d -p 5001:5000 malaohu/mobaxterm-genkey
 ### 激活方式
 直接放到软件目录即可！
 
-已将启动端口修改为5001
-
 核心内容来自：https://github.com/flygon2018/MobaXterm-keygen
 详细介绍文章：https://51.ruyo.net/17008.html
+
+
+
+在原fork基础上 已将启动端口修改为5001，新增了start和stop脚本
