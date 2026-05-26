@@ -122,5 +122,5 @@ def generate_and_download_license():
 
 if __name__ == '__main__':
     # 建议开启 debug=True 进行开发调试，部署时设为 False
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5001, debug=True)
 
